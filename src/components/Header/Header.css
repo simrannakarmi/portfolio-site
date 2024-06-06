@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 30px;
+    width: 80%;
+}
+
+.nav-items {
+    list-style: none;
+    display: inline;
+}
+
+.nav-items li {
+    float: left;
+}
+
+.nav-items a {
+    text-decoration: none;
+    padding: 18px;
+    color: #1C1E53;
+
+}
+
+.nav-items a:hover {
+    color: #5E3BEE;
+    /* font-weight: bold; */
+}
+
+.contact-me-btn {
+    background-color: transparent;
+    border: 1px solid #5E3BEE;
+    padding: 15px 25px;
+    color: #5E3BEE;
+    
+
+}
