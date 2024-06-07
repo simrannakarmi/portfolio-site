@@ -1,0 +1,26 @@
+.portfolio-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-content {
+  width: 80%;
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 30px;
+  width: 80%;
+}
+
+.github-btn {
+  background-color: #2b3137;
+  color: #fafbfc;
+  border: 1px solid #2b3137;
+  padding: 15px 25px;
+  font-size: 16px;
+  transition: all 600ms ease-in-out;
+  border-radius: 6px;
+}

@@ -1,0 +1,22 @@
+.about-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.about-content {
+    color: #282938;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-img {
+    width: 50%;
+}
+
+.about-me-text {
+    width: 50%;
+}

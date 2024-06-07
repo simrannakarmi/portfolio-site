@@ -1,42 +1,48 @@
 .header {
-    display: flex;
-    justify-content: center;
-    background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 14px 30px;
-    width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 30px;
+  width: 80%;
 }
 
 .nav-items {
-    list-style: none;
-    display: inline;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .nav-items li {
-    float: left;
+  float: left;
 }
 
 .nav-items a {
-    text-decoration: none;
-    padding: 18px;
-    color: #1C1E53;
-
+  text-decoration: none;
+  padding: 18px;
+  color: #1c1e53;
 }
 
 .nav-items a:hover {
-    color: #5E3BEE;
-    /* font-weight: bold; */
+  color: #5e3bee;
+  /* font-weight: bold; */
 }
 
 .contact-me-btn {
-    background-color: transparent;
-    border: 1px solid #5E3BEE;
-    padding: 15px 25px;
-    color: #5E3BEE;
-    
+  background-color: transparent;
+  border: 1px solid #5e3bee;
+  padding: 15px 25px;
+  color: #5e3bee;
+  font-size: 16px;
+  transition: all 600ms ease-in-out;
+  border-radius: 6px;
+}
 
+.contact-me-btn:hover {
+  background-color: #5e3bee;
+  color: #ffffff;
 }
