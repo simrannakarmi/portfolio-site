@@ -1,0 +1,60 @@
+.contact-form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-box {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact-form-content {
+    width: 70%;
+}
+
+.contact-form-header {
+    text-align: center;
+}
+
+.contact-form input, textarea, select {
+    border: 1.33px solid #5E3BEE;
+    border-radius: 8px;
+    width: 100%;
+    padding: 16px 0;
+   
+}
+
+.form-terms {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-terms input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    padding: 16px 22px;
+    font-size: 16px;
+    background-color: #5E3BEE;
+    border: 1px solid #5E3BEE;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form-input label{
+    
+}
