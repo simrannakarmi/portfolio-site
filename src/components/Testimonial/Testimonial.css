@@ -2,36 +2,32 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 50px 0;
+    padding: 80px 0;
+    background-color: #F5FCFF;
 }
 
 .testimonial-content {
     width: 80%;
 }
 
-.testimonial-header {
-    padding-top: 80px;
-    
-}
-
 .card-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 40px;
+    gap: 50px;
 }
 
 /* Testimonial Card css */
 .testimonial-card {
     border: 1px solid #006B6A;
     border-radius: 8px;
-    width: 300px;
+    width: 350px;
     padding: 20px;
 
 }
 
 .star-icon {
-    color: #006B6A;
+    color: #eedb0b;
 }
 
 .user-details {
@@ -53,8 +49,4 @@
 
 .user-info p {
     margin: 10px 0;
-}
-
-.user-info {
-
 }

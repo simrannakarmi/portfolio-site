@@ -2,7 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 80vh;
+    padding: 40px 0;
 }
 
 .about-content {
@@ -13,10 +14,19 @@
     align-items: center;
 }
 
+.about-me-img-div {
+    display: flex;
+    justify-content: center;
+}
+
 .about-me-img {
-    width: 50%;
+    width: 500px;
 }
 
 .about-me-text {
-    width: 50%;
+    width: 60%;
+}
+
+.about-me-text p {
+    text-align: justify;
 }

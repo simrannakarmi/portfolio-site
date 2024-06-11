@@ -1,17 +1,16 @@
 import "./About.css";
+import about_img from "../../assets/portfolio_pic.png"
 
 function About() {
   return (
     <div className="about-container" id="about-me">
       <div className="about-content">
-        <div className="about-me-img">
-            <img
-              src="https://res.cloudinary.com/simran-portfolio/image/upload/v1631691111/simran-portfolio/about-me-img_q1z52o.png"
-              alt="about-me-img"
-            />
+        <div className="about-me-img-div">
+            <img src={about_img} alt="about-me-img" className="about-me-img" />
   
         </div>
         <div className="about-me-text">
+            <h5>About</h5>
             <h1>About Me</h1>
             <p>
             I am a Bachelor of Information Management (BIM) student at the

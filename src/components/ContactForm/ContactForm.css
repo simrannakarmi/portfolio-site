@@ -1,60 +1,78 @@
 .contact-form-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
 }
 
 .contact-form-box {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-form-content {
-    width: 70%;
+  width: 70%;
 }
 
 .contact-form-header {
-    text-align: center;
+  text-align: center;
 }
 
-.contact-form input, textarea, select {
-    border: 1.33px solid #5E3BEE;
-    border-radius: 8px;
-    width: 100%;
-    padding: 16px 0;
-   
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+textarea,
+select {
+  border: 1.33px solid #5e3bee;
+  border-radius: 8px;
+  width: 100%;
+  padding: 16px 0;
 }
 
 .form-terms {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .form-terms input {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .submit-btn {
-    padding: 16px 22px;
-    font-size: 16px;
-    background-color: #5E3BEE;
-    border: 1px solid #5E3BEE;
-    color: #FFFFFF;
-    border-radius: 8px;
+  padding: 16px 22px;
+  font-size: 16px;
+  background-color: #5e3bee;
+  border: 1px solid #5e3bee;
+  color: #ffffff;
+  border-radius: 8px;
+  transition: all 600ms ease-in-out;
+}
+
+.submit-btn:hover {
+  background-color: #ffffff;
+  color: #5e3bee;
+  border: 2px solid #5e3bee;
+  font-weight: bold;
 }
 
 .form-group {
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
 }
 
-.form-input label{
-    
+.form-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

@@ -13,7 +13,7 @@ function TestimonialCard() {
         <FontAwesomeIcon icon={faStar} className="star-icon" />
         <FontAwesomeIcon icon={faStar} className="star-icon" />
       </div>
-      <div className="testimonial-content">
+      <div className="user-content">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros elementum tristique. Duis cursus, mi quis viverra.
